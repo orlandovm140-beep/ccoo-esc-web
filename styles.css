@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: #E30613;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+nav {
+  background: #111;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #E30613;
+}
+
+.private-btn {
+  border: 1px solid #E30613;
+  padding: 5px 10px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #E30613;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b80010;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
