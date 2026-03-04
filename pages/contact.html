@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto - Sección Sindical CCOO ESC">
+    <title>Contacto - CCOO ESC</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>CCOO ESC</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="news.html">Noticias</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas? Ponte en contacto con nosotros</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section class="content">
+            <div class="container">
+                <h2>Información de Contacto</h2>
+
+                <div class="contact-info">
+                    <h3>Dirección</h3>
+                    <p>Calle Principal, 123<br>Madrid, 28000<br>España</p>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Teléfono</h3>
+                    <p><a href="tel:+34912345678">+34 91 234 5678</a></p>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Correo Electrónico</h3>
+                    <p><a href="mailto:info@ccoo-esc.org">info@ccoo-esc.org</a></p>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Horario de Atención</h3>
+                    <p>Lunes a Viernes: 09:00 - 18:00<br>Sábados y Domingos: Cerrado</p>
+                </div>
+
+                <h2>Formulario de Contacto</h2>
+                <form class="contact-form" action="mailto:info@ccoo-esc.org" method="POST" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (opcional):</label>
+                        <input type="tel" id="telefono" name="telefono">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Sección Sindical CCOO ESC. Todos los derechos reservados.</p>
+            <p>Contacto: <a href="mailto:info@ccoo-esc.org">info@ccoo-esc.org</a></p>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
